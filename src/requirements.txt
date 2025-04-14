@@ -1,16 +1,6 @@
-ipyleaflet
-ipywidgets
 matplotlib
 numpy
-opencv-python
 pandas
-psycopg2-binary
-pymysql
-python-dotenv
-requests
 scikit-learn
 seaborn
-sqlalchemy
-sympy
-xgboost
 streamlit
