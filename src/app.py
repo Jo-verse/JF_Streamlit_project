@@ -5,8 +5,8 @@ from sklearn.neighbors import NearestNeighbors
 from pickle import load
 
 # Cargar datos y modelo
-data = pd.read_csv("26) JF_Streamlit_project/data/processed/clean_data.csv")
-model = load(open("26) JF_Streamlit_project/models/knn_neighbors-5_algorithm-brute_metric-cosine.sav", "rb"))
+data = pd.read_csv("data/processed/clean_data.csv")
+model = load(open("models/knn_neighbors-5_algorithm-brute_metric-cosine.sav", "rb"))
 
 # Vectorización
 vectorizer = TfidfVectorizer()
